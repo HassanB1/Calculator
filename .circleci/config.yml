@@ -23,3 +23,12 @@ jobs:
             . venv/bin/activate
             flake8 --exclude=venv* --statistics
             pytest -v --cov=calculator
+      #Step 4: install Artifactory
+      - run:
+          name: Install jFrog CLI
+          command: curl -fL https://getcli.jfrog.io | sh
+      #Step 5: Run application
+      - run:
+          name : Run calculator
+          command: |
+            python Calculator.py

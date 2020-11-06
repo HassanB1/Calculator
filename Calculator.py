@@ -1,7 +1,6 @@
 """
 Calculator library containing basic math operations.
 """
-#from artifactory import ArtifactoryPath
 import logger as lgr
 
 
