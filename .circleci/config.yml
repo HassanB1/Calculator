@@ -32,3 +32,6 @@ jobs:
           name : Run calculator
           command: |
             python Calculator.py
+      #Step 6: store artifact
+      - store_artifacts:
+          path: calculator.log

@@ -29,9 +29,9 @@ class Calculator:
 
 def main():
     calc = Calculator()
-    calc.add(5, 6)
-    calc.subtract(6, 3)
-    calc.multiply(3, 3)
+    print(calc.add(5, 6))
+    print(calc.subtract(6, 3))
+    print(calc.multiply(3, 3))
 
 
 if __name__ == '__main__':
