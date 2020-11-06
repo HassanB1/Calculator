@@ -34,5 +34,6 @@ def main():
     calc.subtract(6, 3)
     calc.multiply(3, 3)
 
+
 if __name__ == '__main__':
     main()
