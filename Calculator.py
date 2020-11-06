@@ -1,7 +1,7 @@
 """
 Calculator library containing basic math operations.
 """
-from artifactory import ArtifactoryPath
+#from artifactory import ArtifactoryPath
 import logger as lgr
 
 
@@ -16,13 +16,13 @@ class Calculator:
         return first_term + second_term
 
     @staticmethod
-    def subtract(first_term : str, second_term : str):
+    def subtract(first_term: str, second_term: str):
         lgr.logger('calculator.log', str(first_term) + " " + str(second_term))
         lgr.logger('calculator.log', int(first_term) - int(second_term))
         return first_term - second_term
 
     @staticmethod
-    def multiply(first_term : str, second_term : str):
+    def multiply(first_term: str, second_term: str):
         lgr.logger('calculator.log', str(first_term) + " " + str(second_term))
         lgr.logger('calculator.log', int(first_term) * int(second_term))
         return first_term * second_term
